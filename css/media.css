@@ -1,0 +1,481 @@
+﻿/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+    body{
+        width: 1600px;
+    }
+    header{
+        width: 100%;
+    }
+    .top_group,
+    .bottom_group,
+    .main_left{
+        left: 250px;
+    }
+    .menu{
+        margin: 32px 280px 42px 1040px;
+    }
+    /* MAIN SECTION  */
+    .main_right .main_img{
+        left: 804px;
+        height: 550px;
+        top: 217px;
+    }
+    .center{
+        left: 250px;
+        width: 1090px;
+    }
+    .agenda{
+        left: 20px;
+        width: 100%;
+    }
+    .time_zone,
+    .little_text{
+        left: 465px;
+    }
+    .time{
+        left: -140px;
+    }
+
+    /* TRACK SECTION */
+    .career_track{
+        font-size: 70px;
+    }
+    .info_track_career{
+        font-size: 25px;
+        width: 600px;
+    }
+    .pro_track{
+        font-size: 70px;
+        left: 875px;
+    }
+    .info_track_pro{
+        font-size: 25px;
+        left: 900px;
+        width: 600px;
+    }
+    /* NFR SECTION */
+    .nfr{
+        width:  1570px;
+    }
+    .nfr_text{
+        margin: 7px 0px 0px 503px;
+    }
+    /* POSTER SECTION  */
+    /* POSTER left  */
+    .poster_left{
+        width: 780px;
+    }
+    .speaker_photo{
+        left: 210px;
+    }
+    .speaker_report{
+        left: 410px;
+        font-size: 20px;
+    }
+    .show_btn{
+        left: 410px;
+        width: 110px;
+        font-size: 15px;
+    }
+    .add_btn{
+        left: 550px;
+        width: 110px;
+        font-size: 15px;
+    }
+    .line{
+        width: 722px;
+    }
+    /* POSTER right  */
+    .poster_right{
+        width: 780px;
+        margin-right: 4px;
+        left: 800px;
+    }
+}
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 500px) {
+   
+    body{
+        width: 380px;
+    }
+    header{
+        width: 356px;
+        height: 40px;
+        border: 1px solid #73F9BC;
+        top: 10px;
+        left: 10px;
+    }
+
+    .top_group{
+        display: none;
+    }
+    .bottom_group{
+        left: 10px;
+        top: 16px;
+        
+    }
+    .menu{
+        display: none;
+        z-index: 998;
+    }
+    .icon{
+        color: white;
+        display: block;
+        position: absolute;
+    }
+    .bars1{
+        width: 15px;
+        height: 1px;
+        left: 321px;
+        top: 16px;
+        background: #FFFFFF;
+        position: absolute;
+    }
+    .bars2{
+        width: 15px;
+        height: 1px;
+        left: 321px;
+        top: 19px;
+        background: #FFFFFF;
+        position: absolute;
+    }
+    .bars3{
+        width: 15px;
+        height: 1px;
+        left: 321px;
+        top: 22px;
+        background: #FFFFFF;
+        position: absolute;
+    }
+     /* MAIN SECTION  */
+     .main_section img{
+         height: 930px;
+     }
+     .main_left{
+        left: 38px;
+        top: 104px;
+     }
+    .main_left .green{
+        width: 378px;
+        height: 104px;
+        font-size: 43px;
+        line-height: 52px;
+    }
+    .main_right .main_img{
+        width: 285px;
+        height: 330px;
+        left: 49px;
+        top: 280px;
+    }
+    .main_left .main_btn{
+        position: absolute;
+        width: 300px;
+        height: 55px;
+        top: 506px;
+    }
+    .main_left .into{
+        position: absolute;
+        width: 52px;
+        height: 22px;
+        left: 0px;
+        top: 565px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .main_left .cloud{
+        position: absolute;
+        width: 277px;
+        height: 22px;
+        left: 0px;
+        top: 590px;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .main_left .auto{
+        position: absolute;
+        width: 393px;
+        height: 22px;
+        left: 0px;
+        top: 612px;
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    /* MAIN CENTER SECTION  */
+    .center{
+        position: absolute;
+        width: 300px;
+        height: 37px;
+        left: 38px;
+        top: 784px;
+    }
+    .center .online{
+        position: absolute;
+        width: 284px;
+        height: 24px;
+        left: 5px;
+        top: -15px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .agenda{
+        position: absolute;
+        width: 273px;
+        height: 87px;
+        left: 51px;
+        top: 884px;
+        font-size: 60px;
+        line-height: 87px;
+    }
+
+    /* INFO SECTION  */
+    .time_zone{
+        position: absolute;
+        width: 221px;
+        height: 36px;
+        left: 77px;
+        top: 962px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .little_text{
+        position: absolute;
+        width: 300px;
+        height: 40px;
+        left: 38px;
+        top: 1012px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    /* INFO SECTION */
+    .time{
+        top: -175px;
+        left: 0px;
+       
+    }
+    .first_t{
+        width: 300px;
+        height: 55px;
+        left: 39px;
+        
+    }
+    .type_time{
+        font-size: 18px;
+        line-height: 26px;
+        width: 258px;
+        height: 26px;
+    }
+    .second_t{
+        display: none;
+    }
+    .third_t{
+        display: none;
+    }
+   
+    .second_t,
+    .third_t{
+        display: none;
+    }
+
+    /* TRACK SECTION */
+    .career_track{
+        position: absolute;
+        width: 290px;
+        height: 65px;
+        left: 43px;
+        top: 1160px;
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .info_track_career{
+        position: absolute;
+        width: 304px;
+        height: 52px;
+        left: 36px;
+        top: 1220px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .pro_track{
+        width: 214px;
+        height: 65px;
+        left: 81px;
+        top: 2286px;
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .info_track_pro{
+        width: 304px;
+        height: 78px;
+        left: 36px;
+        top: 2351px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    /* NFR SECTION */
+    .nfr{
+        width: 300px;
+        height: 68px;
+        left: 38px;
+        top: 1330px;
+    }
+    .nfr_text{
+        width: 283px;
+        height: 60px;
+        left: -493px;
+        top: -3px;
+        font-size: 25px;
+        line-height: 120%;
+    }
+    .nfr2{
+        display: block;
+        position: absolute;
+        left: 38px;
+        top: 2468px;
+        width: 300px;
+        height: 68px;
+        background: #73F9BC;
+    }
+    /* POSTER SECTION  */
+    /* POSTER left  */
+    .poster_left{
+        display: flexbox;
+        width: 300px;
+        height: 839px;
+        left: 38px;
+        top: 1398px;
+    }
+    .speaker_first{
+        width: 291px;
+        height: 216px;
+        left: -40px;
+        top: -1318px;
+    }
+    .speaker_time{
+        width: 84px;
+        height: 24px;
+        left: 188px;
+        top: 1324px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .speaker_name{
+        position: absolute;
+        width: 110px;
+        height: 17px;
+        left: 188px;
+        top: 1358px;
+        font-size: 12px;
+        line-height: 17px;
+        
+    }
+    .speaker_report{
+        width: 140px;
+        height: 51px;
+        left: 188px;
+        top: 1384px;
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .speaker_photo{
+        width: 100px;
+        height: 100px;
+        left: 48px;
+        top: 1340px;
+    }
+    .speaker_logo{
+        width: 100px;
+        height: 40px;
+        left: 46px;
+        top: 1454px;
+    }
+    .show_btn{
+        width: 140px;
+        height: 30px;
+        left: 188px;
+        top: 1470px;
+    }
+    .add_btn{
+        width: 140px;
+        height: 30px;
+        left: 188px;
+        top: 1510px;
+    }
+    .line{
+        width: 282px;
+        height: 0px;
+        left: 46px;
+        top: 1560px;
+    }
+    .speaker_second{
+        top: -1075px;
+        left: -40px;
+    }
+    .speaker_third{
+        top: -830px;
+        left: -40px;
+    }
+    .qa{
+        top: -590px;
+        left: -40px;
+    }
+    .speaker_qa{
+        left: 188px;
+        top: 1354px;
+        font-size: 14px;
+        line-height: 120%;
+    }
+    /* POSTER right  */
+    .poster_right{
+        width: 300px;
+        height: 839px;
+        left: 38px;
+        top: 2536px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    
+}
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+     
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  
+}
